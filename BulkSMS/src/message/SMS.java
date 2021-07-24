@@ -28,7 +28,7 @@ public class SMS {
 		
 		String apiKey =  System.getenv("APIKEY");
 		String sender = "TXTIND";
-		String message = "Hi! Welcome the world of technology."
+		String message = "Hi! Welcome to the world of technology."
 				+ "\nThis is my bulk SMS project. You can easily get the code from my github."
 				+ "\nMy GitHub url is https://github.com/Vinoth170";
 		String language="english";
