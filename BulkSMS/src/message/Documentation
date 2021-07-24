@@ -1,0 +1,12 @@
+SMS documentation
+
+The project BulkSMS is used to send SMS to multiple person at the same time.
+
+The class SMS contains main method and static method named sendSMS.
+
+We can compose our message in main method and mobile number to send SMS.
+The string variables message and numbers in main method is used to store the content of the SMS and numbers is used to store the mobile numbers
+
+The static method sendSMS with parameters message and numbers used to invoke URL connection and send SMS.
+This method contains variables apikey, sender, message, route, language, numbers and flash for storing the relevant values for the parameter of the SMS API.
+URL connection object is created to invoke connection to the URL to send the message using the SMS API.
