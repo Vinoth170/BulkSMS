@@ -1,6 +1,8 @@
 package message;
 /**
  * @author Vinoth N
+ * 
+ * Bulk SMS project
  */
 
 import java.net.HttpURLConnection;
@@ -8,7 +10,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Scanner;
 /*
- * Communicate with bunch of people via SMS using this same code with API
+ * Communicate with bunch of people via SMS using this project with your API key
  */
 
 public class SMS {
@@ -49,9 +51,9 @@ public class SMS {
 		conn.setDoOutput(true);
 		
 		if(conn.getResponseMessage().equalsIgnoreCase("OK"))
-			System.out.println("Your message sent successfully...");
+			System.out.println("Your message sent successfully...");//If the message sent to the receiver successfully this line will printed
 		else
-			System.out.println("Your message not send...");
+			System.out.println("Your message not send...");//If the message is not received by the receiver this message will printed.
 		conn.disconnect();
 		
 		
